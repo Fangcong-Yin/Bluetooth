@@ -1,0 +1,1 @@
+{"version":3,"file":"server.d.ts","sources":["server.d.ts"],"names":[],"mappings":";AAAA;AACA;;;AACA","sourcesContent":["export declare class ServerWebBluetooth {\r\n    static instance(): {};\r\n}\r\n"]}

@@ -1,0 +1,72 @@
+{
+  "name": "@manekinekko/angular-web-bluetooth",
+  "version": "11.2.1",
+  "license": "MIT",
+  "author": {
+    "name": "Wassim Chegham",
+    "email": "github@wassim.dev"
+  },
+  "engines": {
+    "node": ">= 5.4.1"
+  },
+  "contributors": [
+    "urish"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manekinekko/angular-web-bluetooth.git"
+  },
+  "homepage": "https://github.com/manekinekko/angular-web-bluetooth",
+  "bugs": "https://github.com/manekinekko/angular-web-bluetooth/issues",
+  "description": "The missing Web Bluetooth module for Angular",
+  "types": "./dist/manekinekko/angular-web-bluetooth/public_api.d.ts",
+  "readme": "https://github.com/manekinekko/angular-web-bluetooth/blob/main/README.md",
+  "private": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "bluetooth",
+    "low",
+    "energy",
+    "web",
+    "ble",
+    "iot",
+    "sensor",
+    "accelerometer",
+    "luxometer",
+    "transmitter",
+    "magnetometer",
+    "ir",
+    "nfc",
+    "thermometer",
+    "puckjs",
+    "sensortag"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^11.0.0",
+    "@angular/core": "^11.0.0"
+  },
+  "main": "bundles/manekinekko-angular-web-bluetooth.umd.js",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/manekinekko-angular-web-bluetooth.js",
+  "module": "fesm2015/manekinekko-angular-web-bluetooth.js",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/manekinekko-angular-web-bluetooth.js",
+  "es2015": "fesm2015/manekinekko-angular-web-bluetooth.js",
+  "esm2015": "esm2015/manekinekko-angular-web-bluetooth.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/manekinekko-angular-web-bluetooth.js",
+  "fesm2015": "fesm2015/manekinekko-angular-web-bluetooth.js",
+  "typings": "manekinekko-angular-web-bluetooth.d.ts",
+  "metadata": "manekinekko-angular-web-bluetooth.metadata.json",
+  "sideEffects": false,
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "11.2.0",
+    "fesm2015": "11.2.0",
+    "module": "11.2.0",
+    "typings": "11.2.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

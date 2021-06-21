@@ -59,6 +59,9 @@
                 <td class="col-md-4">
                     <ul class="index-list">
                         <li>
+                            <a href="#BeaconScanner" title="src/app/thingy52/battery-level.component.ts"><b>BeaconScanner</b>&nbsp;&nbsp;&nbsp;(src/.../battery-level.component.ts)</a>
+                        </li>
+                        <li>
                             <a href="#bleCore" title="src/app/thingy52/battery-level.component.ts"><b>bleCore</b>&nbsp;&nbsp;&nbsp;(src/.../battery-level.component.ts)</a>
                         </li>
                         <li>
@@ -83,10 +86,13 @@
                             <a href="#bleService" title="src/app/thingy52/temperature.component.ts"><b>bleService</b>&nbsp;&nbsp;&nbsp;(src/.../temperature.component.ts)</a>
                         </li>
                         <li>
+                            <a href="#environment" title="src/environments/environment.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.ts)</a>
+                        </li>
+                        <li>
                             <a href="#environment" title="src/environments/environment.prod.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.prod.ts)</a>
                         </li>
                         <li>
-                            <a href="#environment" title="src/environments/environment.ts"><b>environment</b>&nbsp;&nbsp;&nbsp;(src/.../environment.ts)</a>
+                            <a href="#global" title="src/polyfills.ts"><b>global</b>&nbsp;&nbsp;&nbsp;(src/.../polyfills.ts)</a>
                         </li>
                         <li>
                             <a href="#PROVIDERS" title="src/app/thingy52/battery-level.component.ts"><b>PROVIDERS</b>&nbsp;&nbsp;&nbsp;(src/.../battery-level.component.ts)</a>
@@ -99,6 +105,15 @@
                         </li>
                         <li>
                             <a href="#PROVIDERS" title="src/app/thingy52/temperature.component.ts"><b>PROVIDERS</b>&nbsp;&nbsp;&nbsp;(src/.../temperature.component.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#require" title="src/polyfills.ts"><b>require</b>&nbsp;&nbsp;&nbsp;(src/.../polyfills.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#require" title="src/app/thingy52/battery-level.component.ts"><b>require</b>&nbsp;&nbsp;&nbsp;(src/.../battery-level.component.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#scanner" title="src/app/thingy52/battery-level.component.ts"><b>scanner</b>&nbsp;&nbsp;&nbsp;(src/.../battery-level.component.ts)</a>
                         </li>
                         <li>
                             <a href="#TI_SENSORAG_SERVICES" title="projects/manekinekko/angular-web-bluetooth/src/lib/lang/uuids/ti-sensortag2.ts"><b>TI_SENSORAG_SERVICES</b>&nbsp;&nbsp;&nbsp;(projects/.../ti-sensortag2.ts)</a>
@@ -116,6 +131,27 @@
     <h3>src/app/thingy52/battery-level.component.ts</h3>
     <section>
     <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="BeaconScanner"></a>
+                        <span class="name">
+                            <b>
+                            BeaconScanner</b>
+                            <a href="#BeaconScanner"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>require(&#x27;node-beacon-scanner&#x27;)</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
             <tbody>
                 <tr>
                     <td class="col-md-4">
@@ -186,6 +222,49 @@
   useFactory: bleService,
   deps: [BluetoothCore]
 }]</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="require"></a>
+                        <span class="name">
+                            <b>
+                            require</b>
+                            <a href="#require"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="scanner"></a>
+                        <span class="name">
+                            <b>
+                            scanner</b>
+                            <a href="#scanner"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new BeaconScanner()</code>
                         </td>
                     </tr>
 
@@ -433,6 +512,38 @@
             </tbody>
         </table>
 </section>
+    <h3>src/environments/environment.ts</h3>
+    <section>
+    <h3></h3>        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="environment"></a>
+                        <span class="name">
+                            <b>
+                            environment</b>
+                            <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+  production: false
+}</code>
+                        </td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+</section>
     <h3>src/environments/environment.prod.ts</h3>
     <section>
     <h3></h3>        <table class="table table-sm table-bordered">
@@ -465,31 +576,46 @@
             </tbody>
         </table>
 </section>
-    <h3>src/environments/environment.ts</h3>
+    <h3>src/polyfills.ts</h3>
     <section>
     <h3></h3>        <table class="table table-sm table-bordered">
             <tbody>
                 <tr>
                     <td class="col-md-4">
-                        <a name="environment"></a>
+                        <a name="global"></a>
                         <span class="name">
                             <b>
-                            environment</b>
-                            <a href="#environment"><span class="icon ion-ios-link"></span></a>
+                            global</b>
+                            <a href="#global"><span class="icon ion-ios-link"></span></a>
                         </span>
                     </td>
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
 
                         </td>
                     </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="require"></a>
+                        <span class="name">
+                            <b>
+                            require</b>
+                            <a href="#require"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
                     <tr>
                         <td class="col-md-4">
-                            <i>Default value : </i><code>{
-  production: false
-}</code>
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
                         </td>
                     </tr>
 

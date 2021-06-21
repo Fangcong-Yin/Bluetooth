@@ -1,0 +1,1 @@
+{"version":3,"file":"browser.d.ts","sources":["browser.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;AACA;;;AACA","sourcesContent":["/// <reference types=\"web-bluetooth\" />\r\nexport declare class BrowserWebBluetooth {\r\n    private ble;\r\n    constructor();\r\n    requestDevice(options: RequestDeviceOptions): Promise<BluetoothDevice>;\r\n}\r\n"]}
